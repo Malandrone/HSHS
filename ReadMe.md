@@ -20,19 +20,19 @@ The main menu includes the following options:
 ### Scoring criteria
 The overall score (between 0 and 100) is calculated referring to the compliant configuration defined on the conf.txt file.
 Following security headers are taken into account:
-- HTTP Strict Transport Security (HSTS)   ( +5 points if detected and +5 point for each compliant directive )
-- X-Frame-Options                         ( +5 points if detected and +5 point for each compliant directive )
-- X-Content-Type-Options                  ( +5 points if detected and +5 point for each compliant directive )
-- Content-Security-Policy                 ( +5 points if detected and +1 point for each compliant directive )
-- X-Permitted-Cross-Domain-Policies       ( +5 points if detected and +5 point for each compliant directive )
-- Referrer-Policy                         ( +5 points if detected and +5 point for each compliant directive )
-- Clear-Site-Data                         ( +5 points if detected and +1 point for each compliant directive )
-- Cross-Origin-Embedder-Policy (COEP)     ( +1 points if detected and +1 point for each compliant directive )
-- Cross-Origin-Opener-Policy (COOP)       ( +1 points if detected and +1 point for each compliant directive )
-- Cross-Origin-Resource-Policy (CORP)     ( +1 points if detected and +1 point for each compliant directive )
-- Permissions-Policy                      ( +5 points if detected and +0.1 point for each compliant directive )
-- Cache-Control                           ( +5 points if detected and +2.5 point for each compliant directive )
-- Pragma                                  ( +1 points if detected and +1 point for each compliant directive )
+- HTTP Strict Transport Security (HSTS)   ( +5 points if detected and +5 points for each compliant directive )
+- X-Frame-Options                         ( +5 points if detected and +5 points for each compliant directive )
+- X-Content-Type-Options                  ( +5 points if detected and +5 points for each compliant directive )
+- Content-Security-Policy                 ( +5 points if detected and +1 points for each compliant directive )
+- X-Permitted-Cross-Domain-Policies       ( +5 points if detected and +5 points for each compliant directive )
+- Referrer-Policy                         ( +5 points if detected and +5 points for each compliant directive )
+- Clear-Site-Data                         ( +5 points if detected and +1 points for each compliant directive )
+- Cross-Origin-Embedder-Policy (COEP)     ( +1 points if detected and +1 points for each compliant directive )
+- Cross-Origin-Opener-Policy (COOP)       ( +1 points if detected and +1 points for each compliant directive )
+- Cross-Origin-Resource-Policy (CORP)     ( +1 points if detected and +1 points for each compliant directive )
+- Permissions-Policy                      ( +5 points if detected and +0.1 points for each compliant directive )
+- Cache-Control                           ( +5 points if detected and +2.5 points for each compliant directive )
+- Pragma                                  ( +1 points if detected and +1 points for each compliant directive )
 
 In order to obtain the overall score in hundredths, the sum of the points assigned in this way, is normalized with respect to the maximum value of 100.
 
